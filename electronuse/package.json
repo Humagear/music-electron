@@ -1,0 +1,36 @@
+{
+  "name": "electronuse",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist-electron/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.12.0",
+    "electron": "^30.0.9",
+    "pinia": "^2.1.7",
+    "unplugin-auto-import": "^0.17.6",
+    "unplugin-vue-components": "^0.27.0",
+    "vite-plugin-electron-renderer": "^0.14.5",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/test-utils": "^2.4.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "jsdom": "^24.0.0",
+    "naive-ui": "^2.38.2",
+    "vfonts": "^0.0.3",
+    "vite": "^5.2.8",
+    "vite-plugin-electron": "^0.28.7",
+    "vitest": "^1.4.0"
+  }
+}
